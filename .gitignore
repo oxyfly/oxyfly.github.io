@@ -1,0 +1,18 @@
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-workspace
+
+# dependencies
+node_modules
+
+# System Files & Misc
+.DS_Store
+Thumbs.db
+.cache-loader
+npm-debug.log
+yarn-error.log
+resources/assets/config-local.json
+wp-content/plugins/w3-total-cache
+wp-content/cache
+wp-content/w3tc-config
