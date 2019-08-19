@@ -288,17 +288,11 @@ main > section {
     padding: 20px 0;
 }
 
-
-
 h1.navbar-brand {
     font-size: 20px;
     font-weight: 700;
     margin: 0;
     text-transform: uppercase;
-}
-
-h1.navbar-brand a {
-    color: #b5b5b5;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -316,7 +310,6 @@ h1.navbar-brand a {
 #home-slider {
     position: relative;
     padding: 0;
-    height: 670px !important;
 }
 
 .sl-slider-wrapper {
@@ -324,14 +317,12 @@ h1.navbar-brand a {
     margin: 0 auto;
     position: relative;
     overflow: hidden;
-    height: 670px !important;
 }
 
 .sl-slider {
     position: absolute;
     top: 0;
     left: 0;
-    height: 670px !important;
 }
 
 /* Slide wrapper and slides */
@@ -380,6 +371,7 @@ h1.navbar-brand a {
     display: block;
     font-size: 24px;
     margin-bottom: 45px;
+    text-transform: capitalize;
 }
 
 .caption-content p {
@@ -454,7 +446,6 @@ h1.navbar-brand a {
 /* Width and height is set dynamically */
 .sl-content-wrapper {
     position: absolute;
-    height: 670px !important;
 }
 
 .sl-content {
