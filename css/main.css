@@ -65,7 +65,9 @@ main > section {
     text-transform: uppercase;
 }
 
-#btn-blue {
+#btn-blue-1,
+#btn-blue-2,
+#btn-blue-3 {
     display: none;
 }
 
