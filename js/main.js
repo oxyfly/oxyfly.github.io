@@ -262,6 +262,29 @@ function init() {
 
 // ========== END GOOGLE MAP ========== //
 
+// ========== TO THE TOP PAGE ========== //
+
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 100) {
+    $('.back-to-top').fadeIn('slow');
+  } else {
+    $('.back-to-top').fadeOut('slow');
+  }
+});
+
+if ($(this).scrollTop() > 100) {
+  $('.back-to-top').fadeIn('slow');
+}
+
+$('.back-to-top').click(function () {
+  $('html, body').animate({
+    scrollTop: 0
+  }, 1500, 'easeInOutExpo');
+  return false;
+});
+
+// ===================================== //
+
 var wow = new WOW({
   offset: 75,          // distance to the element when triggering the animation (default is 0)
   mobile: false,       // trigger animations on mobile devices (default is true)

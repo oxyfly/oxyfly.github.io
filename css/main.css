@@ -20,6 +20,7 @@ body {
     line-height: 24px;
     font-size: 16px;
     color: #818181;
+    overflow-x: hidden;
 }
 
 figure, p, address {
@@ -1145,6 +1146,24 @@ textarea.form-control {
 .footer-content > p {
     color: #ababab;
     font-size: 12px;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: linear-gradient(45deg, #337591, #1dc8cd);
+    color: #fff;
+    padding: 2px 20px 8px 20px;
+    font-size: 16px;
+    border-radius: 4px 4px 0 0;
+    right: 15px;
+    bottom: 0;
+    transition: none;
+}
+
+.back-to-top:hover {
+    background: #1dc8cd;
+    color: #fff;
 }
 
 
