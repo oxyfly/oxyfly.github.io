@@ -94,10 +94,10 @@ $(document).ready(function () {
     easing: 'easeInOutExpo',
     updateHash: true,
     beforeStart: function () {
-      console.log('begin scrolling');
+      // console.log('begin scrolling');
     },
     onComplete: function () {
-      console.log('done scrolling');
+      // console.log('done scrolling');
     }
   });
 
@@ -194,7 +194,7 @@ function init() {
 	        scaleControl: false,
 	        draggable: true,
 
-        // How you would like to style the map. 
+        // How you would like to style the map.
         // This is where you would paste any style found on Snazzy Maps.
         styles: [{
             featureType: 'water',
@@ -245,7 +245,7 @@ function init() {
         }]
     };
 
-    // Get the HTML DOM element that will contain your map 
+    // Get the HTML DOM element that will contain your map
     // We are using a div with id="map" seen below in the <body>
     var mapElement = document.getElementById('map-canvas');
 
