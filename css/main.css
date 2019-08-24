@@ -590,6 +590,10 @@ h1.navbar-brand {
 	Services
 ==================================================================*/
 
+#service {
+    background-color: #edeef0;
+}
+
 .service-icon {
     border: 3px solid transparent;
     display: inline-block;
@@ -632,6 +636,10 @@ h1.navbar-brand {
 /*=================================================================
 	Portfolio
 ==================================================================*/
+
+#portfolio {
+    background-color: #fafafa;
+}
 
 .project-wrapper {
     margin: 0;
