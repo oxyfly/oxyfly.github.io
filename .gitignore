@@ -16,3 +16,4 @@ resources/assets/config-local.json
 wp-content/plugins/w3-total-cache
 wp-content/cache
 wp-content/w3tc-config
+wp-content/uploads/cache
