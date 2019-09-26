@@ -10,13 +10,23 @@
 *
 */
 
+@font-face {
+    font-family: "Jura";
+    src: url("../fonts/Jura-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Jura";
+    src: url("../fonts/Jura-Medium.ttf") format("truetype");
+}
+
 /* =================================== */
 /*	Basic Style 
 /* =================================== */
 
 body {
     background-color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Jura, sans-serif;
     line-height: 24px;
     font-size: 16px;
     color: #818181;
@@ -51,7 +61,7 @@ a, a:hover, a:focus, .btn:focus {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: Jura, sans-serif;
     color: #252525;
 }
 
