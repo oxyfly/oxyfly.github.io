@@ -198,7 +198,7 @@ main > section {
 }
 
 .sec-title h2:after {
-    border-bottom: 1px solid #009ee3;
+    border-bottom: 2px solid #4452aa;
     content: "";
     display: block;
     left: 45%;
@@ -208,7 +208,7 @@ main > section {
 }
 
 .sec-title.white h2:after {
-    border-bottom: 1px solid #fff;
+    border-bottom: 2px solid #fff;
 }
 
 .parallax {
@@ -224,7 +224,7 @@ main > section {
 /* ==========================================*/
 
 #preloader {
-    background-color: #fff;
+    background-color: #000;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -233,7 +233,7 @@ main > section {
 
 /*Battery*/
 .loder-box {
-    background-color: rgba(0, 0, 0, 0.02);
+    /*background-color: rgba(0, 0, 0, 0.02);*/
     border-radius: 1px;
     height: 100px;
     left: 50%;
@@ -248,7 +248,7 @@ main > section {
     width: 60px;
     height: 25px;
     top: 35%;
-    border: 1px #2E2E2E solid;
+    border: 1px #4452aa solid;
     border-radius: 2px;
     position: relative;
     -webkit-animation: charge 5s linear infinite;
@@ -258,7 +258,7 @@ main > section {
 }
 
 .battery:after {
-    background-color: #2E2E2E;
+    background-color: #4452aa;
     border-radius: 0 1px 1px 0;
     content: "";
     height: 10px;
@@ -270,28 +270,28 @@ main > section {
 
 @-webkit-keyframes charge {
     0% {
-        box-shadow: inset 0px 0px 0px #2E2E2E;
+        box-shadow: inset 0px 0px 0px #4452aa;
     }
     100% {
-        box-shadow: inset 60px 0px 0px #2E2E2E;
+        box-shadow: inset 60px 0px 0px #4452aa;
     }
 }
 
 @-moz-keyframes charge {
     0% {
-        box-shadow: inset 0px 0px 0px #2E2E2E;
+        box-shadow: inset 0px 0px 0px #4452aa;
     }
     100% {
-        box-shadow: inset 60px 0px 0px #2E2E2E;
+        box-shadow: inset 60px 0px 0px #4452aa;
     }
 }
 
 @keyframes charge {
     0% {
-        box-shadow: inset 0px 0px 0px #2E2E2E;
+        box-shadow: inset 0px 0px 0px #4452aa;
     }
     100% {
-        box-shadow: inset 60px 0px 0px #2E2E2E;
+        box-shadow: inset 60px 0px 0px #4452aa;
     }
 }
 
@@ -308,7 +308,7 @@ main > section {
     transition: all 0.8s ease 0s;
 
     /*background-color: rgba(0, 0, 0, .4);*/
-    background-color: rgba(15, 155, 224, 0.78);
+    background-color: rgba(0, 0, 0, 0.78);
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     padding: 5px 0;
 }
@@ -328,6 +328,10 @@ h1.navbar-brand {
     color: #fff;
     font-size: 15px;
     text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #505eed;
 }
 
 
@@ -603,9 +607,8 @@ h1.navbar-brand {
     background-color: #edeef0;
 }
 
-.service-icon {
-    background: url("../img/icons/demo.png") no-repeat center;
-    background-size: contain;
+.service-icon,
+.advantages-icon {
     /*border: 3px solid transparent;*/
     display: inline-block;
     height: 120px;
@@ -616,6 +619,58 @@ h1.navbar-brand {
     -ms-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+}
+
+.service-icon-1 {
+    background: url("../img/icons/service/ic_video.svg") no-repeat center;
+    background-size: contain;
+    height: 110px;
+    width: 110px;
+}
+
+.service-icon-2 {
+    background: url("../img/icons/service/ic_bus-event.svg") no-repeat center;
+    background-size: contain;
+}
+
+.service-icon-3 {
+    background: url("../img/icons/service/ic_corporate.svg") no-repeat center;
+    background-size: contain;
+}
+
+.service-icon-4 {
+    background: url("../img/icons/service/ic_party.svg") no-repeat center;
+    background-size: contain;
+}
+
+.service-icon-5 {
+    background: url("../img/icons/service/ic_holid.svg") no-repeat center;
+    background-size: contain;
+}
+
+.service-icon-6 {
+    background: url("../img/icons/service/ic_wedding.svg") no-repeat center;
+    background-size: contain;
+}
+
+.service-icon-7 {
+    background: url("../img/icons/service/ic_kids.svg") no-repeat center;
+    background-size: contain;
+}
+
+.service-icon-8 {
+    background: url("../img/icons/service/ic_charity.svg") no-repeat center;
+    background-size: contain;
+}
+
+.service-icon-9 {
+    background: url("../img/icons/service/ic_building.svg") no-repeat center;
+    background-size: contain;
+}
+
+.advantages-icon {
+    background: url("../img/icons/service/demo.svg") no-repeat center;
+    background-size: contain;
 }
 
 .service-icon:hover {
@@ -638,6 +693,7 @@ h1.navbar-brand {
 .service-item h3 {
     font-size: 20px;
     text-transform: uppercase;
+    font-style: italic;
 }
 
 /*=================================================================
@@ -938,7 +994,7 @@ ul.external li a:hover {
 ==================================================================*/
 
 #social {
-    background-image: url(../img/slider/banner.jpg);
+    background-image: url(../img/portfolio/item2.jpg);
     padding: 0;
 }
 
@@ -979,24 +1035,35 @@ ul.external li a:hover {
     padding: 0;
     list-style: none;
     text-align: center;
+    position: fixed;
+    bottom: 9rem;
+    left: 0.5rem;
+    z-index: 100;
 }
 
 .social-button li {
-    display: inline-block;
+    /*display: inline-block;*/
+    /*margin: 0 10px;*/
+    margin: 10px 0;
+    visibility: visible !important;
 }
 
-.social-button li:nth-child(2) {
-    margin: 0 75px;
-}
+/*.social-button li:nth-child(2) {*/
+/*    margin: 0 75px;*/
+/*}*/
 
 .social-button li a {
-    border: 2px solid #fff;
-    border-radius: 50%;
-    color: #fff;
-    display: block;
-    height: 90px;
-    line-height: 96px;
-    width: 90px;
+    /*border: 2px solid #fff;*/
+    /*border-radius: 50%;*/
+    color: #6776ff;
+    /*display: block;*/
+    /*height: 90px;*/
+    /*line-height: 96px;*/
+    /*width: 90px;*/
+
+    /*height: 64px;*/
+    /*line-height: 75px;*/
+    /*width: 64px;*/
 
     -webkit-transition: all 0.2s ease 0s;
     -moz-transition: all 0.2s ease 0s;
@@ -1005,10 +1072,10 @@ ul.external li a:hover {
     transition: all 0.2s ease 0s;
 }
 
-.social-button li a:hover {
-    color: #008ECC;
-    border: 2px solid #008ECC;
-}
+/*.social-button li a:hover {*/
+/*    color: #5061ff;*/
+/*    border: 2px solid #5061ff;*/
+/*}*/
 
 
 /*=================================================================
@@ -1200,7 +1267,7 @@ textarea.form-control {
 .back-to-top {
     position: fixed;
     display: none;
-    background: linear-gradient(45deg, #337591, #1dc8cd);
+    background: linear-gradient(45deg, #434c98, #5061ff);
     color: #fff;
     padding: 2px 20px 8px 20px;
     font-size: 16px;
@@ -1425,16 +1492,18 @@ textarea.form-control {
     }
 
     /* follow us */
-    .social-button li:nth-child(2) {
-        margin: 0 25px;
+    /*.social-button li:nth-child(2) {*/
+    /*    margin: 0 25px;*/
+    /*}*/
+    .social-button {
+        bottom: 1rem;
     }
 
-    .social-button li a {
-        height: 65px;
-        line-height: 71px;
-        width: 65px;
-    }
-
+    /*.social-button li a {*/
+    /*    height: 65px;*/
+    /*    line-height: 71px;*/
+    /*    width: 65px;*/
+    /*}*/
     /* contact form */
     .contact-form {
         margin-bottom: 50px;
@@ -1505,16 +1574,14 @@ textarea.form-control {
     }
 
     /* social */
-    .social-button li:nth-child(2) {
-        margin: 0 50px;
-    }
-
-    .social-button li a {
-        height: 90px;
-        line-height: 96px;
-        width: 90px;
-    }
-
+    /*.social-button li:nth-child(2) {*/
+    /*    margin: 0 50px;*/
+    /*}*/
+    /*.social-button li a {*/
+    /*    height: 90px;*/
+    /*    line-height: 96px;*/
+    /*    width: 90px;*/
+    /*}*/
     /* price */
     .price-table {
         margin-bottom: 50px;

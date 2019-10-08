@@ -85,9 +85,10 @@
     right: 50px;
 }
 
+#nav-arrows > a.sl-prev:hover,
 #nav-arrows > a.sl-next:hover {
-    background-color: #009EE3;
-    border-color: #009EE3;
+    background-color: #4452aa;
+    border-color: #4452aa;
     color: #fff;
 }
 
@@ -149,15 +150,15 @@
 }
 
 .bg-img-1 {
-    background-image: url(../img/slider/banner.jpg);
+    background-image: url(../img/portfolio/item3.jpg);
 }
 
 .bg-img-2 {
-    background-image: url(../img/slider/affinity.jpeg);
+    background-image: url(../img/portfolio/item6.jpg);
 }
 
 .bg-img-3 {
-    background-image: url(../img/slider/cinelli.jpeg);
+    background-image: url(../img/portfolio/item2.jpg);
 }
 
 
