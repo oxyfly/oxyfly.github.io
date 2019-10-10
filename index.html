@@ -1,13 +1,32 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>
-<html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>
-<html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>
-<html lang="en" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html lang="en" class="no-js"> <!--<![endif]-->
+<html lang="ru">
 <head>
+
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+      m[i] = m[i] || function () {
+        (m[i].a = m[i].a || []).push(arguments)
+      };
+      m[i].l = 1 * new Date();
+      k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(55692598, "init", {
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true,
+      webvisor: true,
+      trackHash: true,
+      ecommerce: "dataLayer"
+    });
+  </script>
+  <noscript>
+    <div><img src="https://mc.yandex.ru/watch/55692598" style="position:absolute; left:-9999px;" alt=""/></div>
+  </noscript>
+  <!-- /Yandex.Metrika counter -->
+
   <!-- meta character set -->
   <meta charset="utf-8">
   <!-- Always force latest IE rendering engine or request Chrome Frame -->
@@ -81,7 +100,7 @@ Fixed Navigation
     </div>
 
     <!-- main nav -->
-    <nav class="collapse navbar-collapse navbar-right" role="navigation">
+    <nav class="collapse navbar-collapse navbar-right" id="navbar-right" role="navigation">
       <ul id="nav" class="nav navbar-nav">
         <li><a href="#body">Home</a></li>
         <li><a href="#service">Услуги</a></li>
@@ -89,8 +108,24 @@ Fixed Navigation
         <!--        <li><a href="#testimonials">Our Team</a></li>-->
         <li><a href="#advantages">Преимущества</a></li>
         <!--        <li><a href="#price">Price</a></li>-->
-        <li><a href="#social">Contacts</a></li>
+        <li>
+
+        </li>
+
       </ul>
+
+      <div class="social-button">
+        <div class="social-link wow animated zoomIn">
+          <a href="https://www.instagram.com/" target="_blank">
+            <img class="inst-icon" src="img/icons/inst.svg" alt="ra event instagram">
+          </a>
+        </div>
+        <div class="social-link wow animated zoomIn" data-wow-delay="0.3s">
+          <a href="https://vk.com/" target="_blank">
+            <img class="vk-icon" src="img/icons/vk.svg" alt="ra event vk">
+          </a>
+        </div>
+      </div>
     </nav>
     <!-- /main nav -->
 
@@ -672,31 +707,41 @@ End Fixed Navigation
   </section>-->
   <!-- end Price section -->
 
-  <!-- Social section -->
-  <section id="social" class="parallax">
-    <div class="overlay">
-      <div class="container">
-        <div class="row">
-
-          <div class="sec-title text-center white wow animated fadeInDown">
-            <h2>Social Networks</h2>
-            <p>Beautifully simple follow buttons to help you get followers on</p>
-          </div>
-
-          <ul class="social-button">
-            <li class="wow animated zoomIn"><a href="#" target="_blank"><i
-                    class="fa fa-instagram fa-2x"></i></a></li>
-            <li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#" target="_blank"><i
-                    class="fa fa-vk fa-2x"></i></a>
-            </li>
-            <!--            <li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="#"><i class="fa fa-twitter fa-2x"></i></a>
-                        </li>-->
-          </ul>
-
-        </div>
-      </div>
+  <!-- MAP -->
+  <section id="map-y" class="map-y">
+    <div class="overlay-y">
+      <script type="text/javascript" charset="utf-8" async
+              src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5bbb640762b863a4a0475cf427eb44c824d3603dc0024e5a35e89fb8bc9aa679&amp;width=100%25&amp;height=576&amp;lang=en_FR&amp;scroll=true">
+      </script>
     </div>
+
   </section>
+
+  <!-- Social section -->
+  <!--      <section id="social" class="parallax">
+          <div class="overlay">
+            <div class="container">
+              <div class="row">
+
+                <div class="sec-title text-center white wow animated fadeInDown">
+                  <h2>Social Networks</h2>
+                  <p>Beautifully simple follow buttons to help you get followers on</p>
+                </div>
+
+                <ul class="social-button">
+                  <li class="wow animated zoomIn"><a href="#" target="_blank"><i
+                          class="fa fa-instagram fa-2x"></i></a></li>
+                  <li class="wow animated zoomIn" data-wow-delay="0.3s"><a href="#" target="_blank"><i
+                          class="fa fa-vk fa-2x"></i></a>
+                  </li>
+                  &lt;!&ndash;            <li class="wow animated zoomIn" data-wow-delay="0.6s"><a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                              </li>&ndash;&gt;
+                </ul>
+
+              </div>
+            </div>
+          </div>
+        </section>-->
   <!-- end Social section -->
 
   <!-- Contacts section -->

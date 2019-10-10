@@ -320,6 +320,7 @@ main > section {
 h1.navbar-brand {
     font-size: 20px;
     font-weight: 700;
+    font-style: italic;
     margin: 0;
     text-transform: uppercase;
 }
@@ -1031,20 +1032,16 @@ ul.external li a:hover {
 }
 
 .social-button {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-    position: fixed;
-    bottom: 9rem;
-    left: 0.5rem;
-    z-index: 100;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 40px;
 }
 
-.social-button li {
+.social-button .social-link {
     /*display: inline-block;*/
     /*margin: 0 10px;*/
-    margin: 10px 0;
+    margin: 0 5px;
     visibility: visible !important;
 }
 
@@ -1052,10 +1049,10 @@ ul.external li a:hover {
 /*    margin: 0 75px;*/
 /*}*/
 
-.social-button li a {
+.social-button .social-link a {
     /*border: 2px solid #fff;*/
     /*border-radius: 50%;*/
-    color: #6776ff;
+    /*color: #6776ff;*/
     /*display: block;*/
     /*height: 90px;*/
     /*line-height: 96px;*/
@@ -1145,6 +1142,24 @@ textarea.form-control {
 #map-canvas {
     width: 100%;
     height: 300px;
+}
+
+/*============================================================
+	CUSTOM CODE
+==============================================================*/
+
+.map-y {
+    padding: 0;
+}
+
+.inst-icon {
+    width: 14px;
+    height: 14px;
+}
+
+.vk-icon {
+    width: 18px;
+    height: 18px;
 }
 
 
@@ -1370,7 +1385,6 @@ textarea.form-control {
 /*============================================================
 	Mobile (Portrait) Design for a width of 320px
 ==============================================================*/
-
 @media only screen and (max-width: 767px) {
 
     body {
@@ -1397,6 +1411,13 @@ textarea.form-control {
     .navbar-inverse .navbar-toggle:hover,
     .navbar-inverse .navbar-toggle:focus {
         background-color: transparent;
+    }
+
+    .social-button {
+        padding-left: 0;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
     }
 
     /* slider */
@@ -1517,8 +1538,22 @@ textarea.form-control {
     .footer-social ul li {
         margin: 0 7px;
     }
+
+    #map-y {
+        max-width: 325px;
+    }
 }
 
+@media only screen and (min-width: 767px) {
+    #navbar-right {
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+        align-items: center !important;
+    }
+}
 
 /*============================================================
 	Mobile (Landscape) Design for a width of 480px
