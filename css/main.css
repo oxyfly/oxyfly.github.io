@@ -519,7 +519,7 @@ h1.navbar-brand {
 /* Project laughtbox setup */
 
 .fancybox-item.fancybox-close {
-    background: url("../img/icons/close.png") no-repeat scroll 0 0 transparent;
+    background: url("../img/icons/close.svg") no-repeat scroll 0 0 transparent;
     height: 50px;
     right: 0;
     top: 0;
@@ -527,14 +527,14 @@ h1.navbar-brand {
 }
 
 .fancybox-next span {
-    background: url("../img/right.png") no-repeat scroll center center #009ee3;
+    background: url("../img/right.png") no-repeat scroll center center #4452aa;
     height: 50px;
     width: 50px;
     right: 0;
 }
 
 .fancybox-prev span {
-    background: url("../img/left.png") no-repeat scroll center center #009ee3;
+    background: url("../img/left.png") no-repeat scroll center center #4452aa;
     height: 50px;
     width: 50px;
     left: 0;
@@ -606,6 +606,27 @@ h1.navbar-brand {
 
 #service {
     background-color: #edeef0;
+    position: relative;
+}
+
+.service-decor-1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 351px;
+    height: 274px;
+    background: url("../img/decor/drop_1.svg") no-repeat;
+    background-size: contain;
+}
+
+.service-decor-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 357px;
+    height: 229px;
+    background: url("../img/decor/drop_3.svg") no-repeat;
+    background-size: contain;
 }
 
 .service-icon,
@@ -706,10 +727,51 @@ h1.navbar-brand {
 }
 
 .project-wrapper {
+    position: relative;
     margin: 0;
     padding: 0;
     list-style: none;
     text-align: center;
+}
+
+.portfolio-decor-1 {
+    position: absolute;
+    right: -16rem;
+    top: -11rem;
+    width: 305px;
+    height: 329px;
+    background: url("../img/decor/drop_9.svg") no-repeat;
+    background-size: contain;
+}
+
+.portfolio-decor-2 {
+    position: absolute;
+    left: -24rem;
+    top: 11rem;
+    width: 405px;
+    height: 429px;
+    background: url("../img/decor/drop_13.svg") no-repeat;
+    background-size: contain;
+}
+
+.portfolio-decor-3 {
+    position: absolute;
+    right: -18rem;
+    bottom: -20rem;
+    width: 321px;
+    height: 329px;
+    background: url("../img/decor/drop_10.svg") no-repeat;
+    background-size: contain;
+}
+
+.portfolio-decor-4 {
+    position: absolute;
+    left: -16rem;
+    bottom: -16rem;
+    width: 421px;
+    height: 429px;
+    background: url("../img/decor/drop_12.svg") no-repeat;
+    background-size: contain;
 }
 
 .project-wrapper li {
@@ -726,13 +788,11 @@ h1.navbar-brand {
 
 figcaption.mask {
     background-color: rgba(54, 55, 50, 0.79);
-    /*bottom: -126px;*/
-    bottom: -282px;
+    bottom: -126px;
     color: #fff;
     padding: 25px;
     position: absolute;
     width: 100%;
-    height: 100%;
     text-align: left;
 
     -webkit-transition: all 0.4s ease 0s;
@@ -749,11 +809,6 @@ figcaption.mask {
 figcaption.mask h3 {
     margin: 0;
     color: #fff;
-}
-
-figcaption.mask p {
-    font-size: 12px;
-    line-height: 1.5;
 }
 
 ul.external {
@@ -789,7 +844,7 @@ ul.external li a {
 }
 
 ul.external li a:hover {
-    background-color: #009EE3;
+    background-color: #4452aa;
     color: #fff;
 }
 
@@ -1162,7 +1217,6 @@ textarea.form-control {
     height: 18px;
 }
 
-
 /*============================================================
 	Footer
 ==============================================================*/
@@ -1474,8 +1528,7 @@ textarea.form-control {
     }
 
     figcaption.mask {
-        /*bottom: -107px;*/
-        bottom: -212px;
+        bottom: -107px;
         color: #fff;
         padding: 15px;
     }
@@ -1595,8 +1648,7 @@ textarea.form-control {
     }
 
     figcaption.mask {
-        /*bottom: -132px;*/
-        bottom: -266px;
+        bottom: -132px;
     }
 
     /* testimonial */
