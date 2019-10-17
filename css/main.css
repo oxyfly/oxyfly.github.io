@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 main > section {
-    padding: 70px 0;
+    /*padding: 70px 0;*/
 }
 
 .btn {
@@ -605,7 +605,7 @@ h1.navbar-brand {
 ==================================================================*/
 
 #service {
-    background-color: #edeef0;
+    /*background-color: #edeef0;*/
     position: relative;
 }
 
@@ -723,7 +723,9 @@ h1.navbar-brand {
 ==================================================================*/
 
 #portfolio {
-    background-color: #fafafa;
+    /*background-color: #fafafa;*/
+    padding: 70px 0;
+    overflow: hidden;
 }
 
 .project-wrapper {
@@ -742,6 +744,7 @@ h1.navbar-brand {
     height: 329px;
     background: url("../img/decor/drop_9.svg") no-repeat;
     background-size: contain;
+    z-index: 50;
 }
 
 .portfolio-decor-2 {
@@ -757,7 +760,7 @@ h1.navbar-brand {
 .portfolio-decor-3 {
     position: absolute;
     right: -18rem;
-    bottom: -20rem;
+    bottom: -14rem;
     width: 321px;
     height: 329px;
     background: url("../img/decor/drop_10.svg") no-repeat;
@@ -766,12 +769,13 @@ h1.navbar-brand {
 
 .portfolio-decor-4 {
     position: absolute;
-    left: -16rem;
-    bottom: -16rem;
+    left: -26rem;
+    bottom: -7rem;
     width: 421px;
     height: 429px;
-    background: url("../img/decor/drop_12.svg") no-repeat;
+    background: url(../img/decor/drop_12.svg) no-repeat;
     background-size: contain;
+    z-index: 50;
 }
 
 .project-wrapper li {
@@ -779,7 +783,7 @@ h1.navbar-brand {
 }
 
 .portfolio-item {
-    cursor: pointer;
+    /*cursor: pointer;*/
     margin: 0 1% 1% 0;
     overflow: hidden;
     position: relative;
@@ -872,6 +876,55 @@ ul.external li a:hover {
 
 .fancybox-title-inside-wrap {
     padding-top: 0;
+}
+
+/*=================================================================
+	services
+==================================================================*/
+#services {
+    width: 100%;
+    /*height: 500px;*/
+    padding: 70px 0;
+    background: url(../img/decor-services.svg) no-repeat top left;
+}
+
+.services-title,
+.services-desc {
+    text-align: right;
+    color: #1369c3;
+}
+
+.services-desc {
+    line-height: 1;
+    margin-bottom: 40px;
+}
+
+.color-dot {
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 1;
+    text-align: right;
+    padding-right: 20px;
+    color: #5c83dc;
+}
+
+.color-dot-1:after {
+    background-color: #87dcda;
+}
+
+.color-dot-2:after {
+    background-color: #7d69d2;
+}
+
+.color-dot-1:after,
+.color-dot-2:after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top: 3px;
+    right: 0;
 }
 
 /*=================================================================
@@ -1202,11 +1255,6 @@ textarea.form-control {
 /*============================================================
 	CUSTOM CODE
 ==============================================================*/
-
-.map-y {
-    padding: 0;
-}
-
 .inst-icon {
     width: 14px;
     height: 14px;
@@ -1359,6 +1407,12 @@ textarea.form-control {
 /*============================================================
 	For Small Desktop
 ==============================================================*/
+
+@media (max-width: 991px) {
+    .services-title {
+        margin-top: 220px;
+    }
+}
 
 @media (min-width: 980px) and (max-width: 1150px) {
 
@@ -1590,10 +1644,6 @@ textarea.form-control {
 
     .footer-social ul li {
         margin: 0 7px;
-    }
-
-    #map-y {
-        max-width: 325px;
     }
 }
 
