@@ -723,7 +723,7 @@ h1.navbar-brand {
 ==================================================================*/
 
 #portfolio {
-    /*background-color: #fafafa;*/
+    background-color: #fafafa;
     padding: 70px 0;
     overflow: hidden;
 }
@@ -788,6 +788,9 @@ h1.navbar-brand {
     overflow: hidden;
     position: relative;
     width: 32%;
+    -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
 }
 
 figcaption.mask {
@@ -832,6 +835,9 @@ ul.external {
 
 ul.external li {
     display: inline-block;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
 
 ul.external li a {
@@ -925,6 +931,56 @@ ul.external li a:hover {
     border-radius: 50%;
     top: 3px;
     right: 0;
+}
+
+/*=================================================================
+	collaboration
+==================================================================*/
+#collaboration {
+    position: relative;
+    width: 100%;
+    /*height: 500px;*/
+    padding: 70px 0;
+    background: url(../img/decor-collaboration.svg) no-repeat top right;
+}
+
+.collaboration-title,
+.collaboration-desc {
+    text-align: center;
+    color: #1369c3;
+}
+
+.collaboration-desc {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.color-dot-collaboration {
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 1;
+    text-align: left;
+    padding-left: 20px;
+    color: #5c83dc;
+}
+
+.color-dot-collaboration-1:before {
+    background-color: #87dcda;
+}
+
+.color-dot-collaboration-2:before {
+    background-color: #7d69d2;
+}
+
+.color-dot-collaboration-1:before,
+.color-dot-collaboration-2:before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
 }
 
 /*=================================================================
@@ -1404,6 +1460,20 @@ textarea.form-control {
 	Responsive Styles
  ============================================================*/
 
+@media (min-width: 1700px) {
+    .collaboration-decor-1 {
+        position: absolute;
+        left: 39rem;
+        right: 0;
+        top: 16rem;
+        margin: 0 auto;
+        width: 264px;
+        height: 264px;
+        background: url(../img/decor/drop_12.svg) no-repeat;
+        background-size: contain;
+    }
+}
+
 /*============================================================
 	For Small Desktop
 ==============================================================*/
@@ -1411,6 +1481,10 @@ textarea.form-control {
 @media (max-width: 991px) {
     .services-title {
         margin-top: 220px;
+    }
+
+    .collaboration-title {
+        margin-top: 275px;
     }
 }
 
@@ -1435,6 +1509,12 @@ textarea.form-control {
 /*============================================================
 	Tablet (Portrait) Design for a width of 768px
 ==============================================================*/
+
+@media (min-width: 767px) and (max-width: 990px) {
+    .collaboration-title {
+        margin-top: 575px;
+    }
+}
 
 @media (min-width: 768px) and (max-width: 979px) {
 
@@ -1663,6 +1743,10 @@ textarea.form-control {
 ==============================================================*/
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .collaboration-title {
+        margin-top: 455px;
+    }
 
     .sec-title h2:after {
         left: 38%;
