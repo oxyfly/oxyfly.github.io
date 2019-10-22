@@ -20,13 +20,28 @@
     src: url("../fonts/Jura-Medium.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "TTRounds";
+    src: url("../fonts/TTRounds-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "TTRounds";
+    src: url("../fonts/TTRounds-Bold.otf") format("truetype");
+}
+
 /* =================================== */
 /*	Basic Style 
 /* =================================== */
 
 body {
     background-color: #fff;
-    font-family: Jura, sans-serif;
+    font-family: Montserrat, sans-serif;
     line-height: 24px;
     font-size: 16px;
     color: #818181;
@@ -61,7 +76,7 @@ a, a:hover, a:focus, .btn:focus {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: Jura, sans-serif;
+    font-family: TTRounds, sans-serif;
     color: #252525;
 }
 
@@ -327,7 +342,7 @@ h1.navbar-brand {
 
 .navbar-inverse .navbar-nav > li > a {
     color: #fff;
-    font-size: 15px;
+    font-size: 14px;
     text-transform: uppercase;
 }
 
@@ -723,7 +738,6 @@ h1.navbar-brand {
 ==================================================================*/
 
 #portfolio {
-    background-color: #fafafa;
     padding: 70px 0;
     overflow: hidden;
 }
@@ -788,9 +802,6 @@ h1.navbar-brand {
     overflow: hidden;
     position: relative;
     width: 32%;
-    -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
-    -moz-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
 }
 
 figcaption.mask {
@@ -892,6 +903,7 @@ ul.external li a:hover {
     /*height: 500px;*/
     padding: 70px 0;
     background: url(../img/decor-services.svg) no-repeat top left;
+    background-color: #fafafa;
 }
 
 .services-title,
