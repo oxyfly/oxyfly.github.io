@@ -880,6 +880,7 @@ ul.external li a {
 ul.external li a:hover {
     background-color: #4452aa;
     color: #fff;
+    border-bottom-left-radius: 10px;
 }
 
 .portfolio-item:hover ul.external {
