@@ -202,6 +202,7 @@ main > section {
 
 .sec-title h2 {
     font-size: 36px;
+    color: #1369c3;
     margin: 0 0 30px;
     padding-bottom: 30px;
     position: relative;
@@ -213,7 +214,7 @@ main > section {
 }
 
 .sec-title h2:after {
-    border-bottom: 2px solid #4452aa;
+    border-bottom: 2px solid #1369c3;
     content: "";
     display: block;
     left: 45%;
@@ -794,6 +795,18 @@ h1.navbar-brand {
 
 .project-wrapper li {
     display: inline-block;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.project-wrapper li:hover {
+    -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
 }
 
 .portfolio-item {
