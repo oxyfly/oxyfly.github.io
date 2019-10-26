@@ -943,6 +943,7 @@ ul.external li a:hover {
     padding: 70px 0;
     background: url(../img/decor-services.svg) no-repeat top left;
     background-color: #e5e5e5;
+    overflow-x: hidden;
 }
 
 .services-title,
@@ -993,6 +994,7 @@ ul.external li a:hover {
     /*height: 500px;*/
     padding: 70px 0;
     background: url(../img/decor-collaboration.svg) no-repeat top right;
+    overflow-x: hidden;
 }
 
 .collaboration-title,
