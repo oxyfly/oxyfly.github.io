@@ -262,17 +262,36 @@ function init() {
 
 // ========== END GOOGLE MAP ========== //
 
+// ========== TO THE TOP PAGE - HEADER ========== //
+
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 1) {
+    $('.back-to-header').fadeIn('slow');
+  }
+});
+
+if ($(this).scrollTop() > 1) {
+  $('.back-to-header').fadeIn('slow');
+}
+
+$('.back-to-header').click(function () {
+  $('html, body').animate({
+    scrollTop: 0
+  }, 1500, 'easeInOutExpo');
+  return false;
+});
+
 // ========== TO THE TOP PAGE ========== //
 
 $(window).scroll(function () {
-  if ($(this).scrollTop() > 100) {
+  if ($(this).scrollTop() > 50) {
     $('.back-to-top').fadeIn('slow');
   } else {
     $('.back-to-top').fadeOut('slow');
   }
 });
 
-if ($(this).scrollTop() > 100) {
+if ($(this).scrollTop() > 50) {
   $('.back-to-top').fadeIn('slow');
 }
 
