@@ -1573,7 +1573,13 @@ textarea.form-control {
     }
 
     .collaboration-title {
-        margin-top: 275px;
+        margin-top: 300px;
+    }
+
+    .services-desc,
+    .color-dot,
+    .color-dot-collaboration {
+        font-size: 12px;
     }
 }
 
