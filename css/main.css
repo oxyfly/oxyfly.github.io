@@ -772,7 +772,7 @@ main > section {
     height: 329px;
     background: url("../img/decor/drop_9.svg") no-repeat;
     background-size: contain;
-    z-index: 50;
+    /*z-index: 50;*/
 }
 
 .portfolio-decor-2 {
@@ -803,7 +803,7 @@ main > section {
     height: 429px;
     background: url(../img/decor/drop_12.svg) no-repeat;
     background-size: contain;
-    z-index: 50;
+    /*z-index: 50;*/
 }
 
 .project-wrapper li {
@@ -1671,7 +1671,8 @@ textarea.form-control {
         background-position: centet tip !important;
     }
 
-    .sec-title h2 {
+    .sec-title h2,
+    h1 {
         font-size: 25px;
     }
 
