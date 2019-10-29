@@ -1,15 +1,3 @@
-/**
-*
-* ---------------------------------------------------------------------------
-*
-* Template : Blue - A One-Page HTML Portfolio/Business Template
-* Author : Muhammad Morshd
-* Author URI : http://morsheds.com
-*
-* ---------------------------------------------------------------------------
-*
-*/
-
 @font-face {
     font-family: "Jura";
     src: url("../fonts/Jura-Regular.ttf") format("truetype");
@@ -35,9 +23,7 @@
     src: url("../fonts/TTRounds-Bold.otf") format("truetype");
 }
 
-/* =================================== */
-/*	Basic Style
-/* =================================== */
+/*	GLOBAL */
 
 body {
     background-color: #fff;
@@ -115,7 +101,7 @@ main > section {
     background-color: #009EE3;
 }
 
-/* Sweep To Right */
+/* ------------------------------------ */
 .btn-effect {
     vertical-align: middle;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -234,11 +220,7 @@ main > section {
     background-size: cover;
 }
 
-
-/**
-/*	Preloader
-/* ==========================================*/
-
+/*	Preloader */
 #preloader {
     background-color: #000;
     position: fixed;
@@ -247,7 +229,7 @@ main > section {
     z-index: 9999;
 }
 
-/*Battery*/
+/* ------------------------------------ */
 .loder-box {
     /*background-color: rgba(0, 0, 0, 0.02);*/
     border-radius: 1px;
@@ -311,11 +293,7 @@ main > section {
     }
 }
 
-
-/**
-/*	Header
-/* ==========================================*/
-
+/*	Header */
 #navigation {
     -webkit-transition: all 0.8s ease 0s;
     -moz-transition: all 0.8s ease 0s;
@@ -364,12 +342,7 @@ main > section {
     color: #505eed;
 }
 
-
-/*=================================================================
-	Home Slider
-==================================================================*/
-
-
+/* Slider */
 #home-slider {
     position: relative;
     padding: 0;
@@ -387,8 +360,6 @@ main > section {
     top: 0;
     left: 0;
 }
-
-/* Slide wrapper and slides */
 
 .sl-slide,
 .sl-slides-wrapper,
@@ -441,8 +412,6 @@ main > section {
     margin-bottom: 65px;
 }
 
-/* The duplicate parts/slices */
-
 .sl-content-slice {
     overflow: hidden;
     position: absolute;
@@ -457,8 +426,6 @@ main > section {
     backface-visibility: hidden;
     opacity: 1;
 }
-
-/* Horizontal slice */
 
 .sl-slide-horizontal .sl-content-slice {
     width: 100%;
@@ -481,8 +448,6 @@ main > section {
     padding: 0px 200px 200px 200px;
 }
 
-/* Vertical slice */
-
 .sl-slide-vertical .sl-content-slice {
     width: 50%;
     height: 100%;
@@ -504,8 +469,6 @@ main > section {
     padding: 200px 200px 200px 0px;
 }
 
-/* Content wrapper */
-/* Width and height is set dynamically */
 .sl-content-wrapper {
     position: absolute;
 }
@@ -544,9 +507,6 @@ main > section {
     width: 100%;
 } */
 
-
-/* Project laughtbox setup */
-
 .fancybox-item.fancybox-close {
     background: url("../img/icons/close.svg") no-repeat scroll 0 0 transparent;
     height: 50px;
@@ -569,187 +529,7 @@ main > section {
     left: 0;
 }
 
-/*=================================================================
-	About
-==================================================================*/
-
-#about {
-    background-color: #009EE3;
-    color: #fff;
-}
-
-#about h3 {
-    color: #fff;
-    margin: 0 0 35px;
-    text-transform: uppercase;
-}
-
-#about .welcome-block h3 {
-    margin: 0 0 65px;
-}
-
-#about .welcome-block img {
-    border: 3px solid #fff;
-    border-radius: 50%;
-    margin-right: 35px;
-    max-width: 100px;
-}
-
-#about .message-body {
-    font-size: 13px;
-    line-height: 20px;
-    margin-bottom: 70px;
-}
-
-.owl-buttons {
-    border: 2px solid #fff;
-    display: inline-block;
-    float: right;
-    padding: 1px 8px 5px;
-}
-
-.owl-buttons > div {
-    display: inline-block;
-    padding: 0 5px;
-}
-
-.welcome-message {
-    padding: 0 50px;
-}
-
-.welcome-message img {
-    display: block;
-    height: auto;
-    max-width: 100px;
-    float: left;
-}
-
-.welcome-message p {
-    font-size: 13px;
-    margin-left: 135px;
-}
-
-/*=================================================================
-	Services
-==================================================================*/
-
-#service {
-    /*background-color: #edeef0;*/
-    position: relative;
-}
-
-.service-decor-1 {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 351px;
-    height: 274px;
-    background: url("../img/decor/drop_1.svg") no-repeat;
-    background-size: contain;
-}
-
-.service-decor-2 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 357px;
-    height: 229px;
-    background: url("../img/decor/drop_3.svg") no-repeat;
-    background-size: contain;
-}
-
-.service-icon,
-.advantages-icon {
-    /*border: 3px solid transparent;*/
-    display: inline-block;
-    height: 120px;
-    width: 120px;
-    line-height: 101px;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -ms-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-}
-
-.service-icon-1 {
-    background: url("../img/icons/service/ic_video.svg") no-repeat center;
-    background-size: contain;
-    height: 110px;
-    width: 110px;
-}
-
-.service-icon-2 {
-    background: url("../img/icons/service/ic_bus-event.svg") no-repeat center;
-    background-size: contain;
-}
-
-.service-icon-3 {
-    background: url("../img/icons/service/ic_corporate.svg") no-repeat center;
-    background-size: contain;
-}
-
-.service-icon-4 {
-    background: url("../img/icons/service/ic_party.svg") no-repeat center;
-    background-size: contain;
-}
-
-.service-icon-5 {
-    background: url("../img/icons/service/ic_holid.svg") no-repeat center;
-    background-size: contain;
-}
-
-.service-icon-6 {
-    background: url("../img/icons/service/ic_wedding.svg") no-repeat center;
-    background-size: contain;
-}
-
-.service-icon-7 {
-    background: url("../img/icons/service/ic_kids.svg") no-repeat center;
-    background-size: contain;
-}
-
-.service-icon-8 {
-    background: url("../img/icons/service/ic_charity.svg") no-repeat center;
-    background-size: contain;
-}
-
-.service-icon-9 {
-    background: url("../img/icons/service/ic_building.svg") no-repeat center;
-    background-size: contain;
-}
-
-.advantages-icon {
-    background: url("../img/icons/service/demo.svg") no-repeat center;
-    background-size: contain;
-}
-
-.service-icon:hover {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
-    /*-webkit-transform: rotate(360deg);*/
-    /*-moz-transform: rotate(360deg);*/
-    /*-ms-transform: rotate(360deg);*/
-    /*-o-transform: rotate(360deg);*/
-    /*transform: rotate(360deg);*/
-}
-
-.service-item {
-    height: 250px;
-}
-
-.service-item h3 {
-    font-size: 20px;
-    text-transform: uppercase;
-    font-style: italic;
-}
-
-/*=================================================================
-	Portfolio
-==================================================================*/
+/* Portfolio */
 
 #portfolio {
     padding: 70px 0;
@@ -934,9 +714,7 @@ ul.external li a:hover {
     padding-top: 0;
 }
 
-/*=================================================================
-	services
-==================================================================*/
+/* services */
 #services {
     width: 100%;
     /*height: 500px;*/
@@ -985,9 +763,7 @@ ul.external li a:hover {
     right: 0;
 }
 
-/*=================================================================
-	collaboration
-==================================================================*/
+/* collaboration */
 #collaboration {
     position: relative;
     width: 100%;
@@ -1036,190 +812,7 @@ ul.external li a:hover {
     left: 0;
 }
 
-/*=================================================================
-	Testimonials
-==================================================================*/
-
-
-#testimonials {
-    background-image: url(../img/parallax/testimonial.jpg);
-    padding: 0;
-    color: #fff;
-}
-
-#testimonials .sec-title h2:after {
-    border-bottom: 1px solid #fff;
-}
-
-#testimonials .overlay {
-    background-color: rgba(15, 155, 224, 0.78);
-    padding: 70px 0 40px;
-}
-
-.testimonial-item {
-    margin: 0 auto;
-    padding-bottom: 50px;
-    width: 64%;
-}
-
-.testimonial-item img {
-    border: 3px solid #fff;
-    border-radius: 50%;
-    display: inline-block;
-    height: auto;
-    max-width: 100px;
-}
-
-.testimonial-item > div {
-    line-height: 30px;
-    position: relative;
-}
-
-.testimonial-item > div:before {
-    background-image: url("../img/icons/quotes.png");
-    background-repeat: no-repeat;
-    bottom: 127px;
-    height: 33px;
-    left: -35px;
-    position: absolute;
-    width: 45px;
-}
-
-.testimonial-item > div:after {
-    background-image: url("../img/icons/quotes.png");
-    background-position: -58px 0;
-    background-repeat: no-repeat;
-    bottom: -50px;
-    height: 33px;
-    position: absolute;
-    right: 0;
-    width: 45px;
-}
-
-.testimonial-item > div > span {
-    display: inline-block;
-    font-weight: 700;
-    margin: 40px 0 30px;
-    text-transform: uppercase;
-}
-
-#testimonials .owl-controls.clickable {
-    margin-top: 20px;
-    text-align: center;
-}
-
-#testimonials .owl-buttons {
-    border: 2px solid #fff;
-    float: inherit;
-}
-
-#testimonials .owl-prev:hover,
-#testimonials .owl-next:hover {
-    color: #fff;
-}
-
-.price-table {
-    border: 1px solid #e3e3e3;
-}
-
-.price-table.featured {
-    -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.19);
-    -moz-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.19);
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.19);
-}
-
-.price-table > span {
-    color: #252525;
-    display: block;
-    font-size: 24px;
-    padding: 30px 0;
-    text-transform: uppercase;
-}
-
-.price-table .value {
-    background-color: #f8f8f8;
-    color: #727272;
-    padding: 20px 0;
-
-    -webkit-transition: all 0.7s ease 0s;
-    -moz-transition: all 0.7s ease 0s;
-    -ms-transition: all 0.7s ease 0s;
-    -o-transition: all 0.7s ease 0s;
-    transition: all 0.7s ease 0s;
-}
-
-.price-table.featured .value {
-    background-color: #009EE3;
-    color: #fff;
-}
-
-.price-table .value span {
-    display: inline-block;
-}
-
-.price-table .value span:first-child {
-    font-size: 32px;
-    line-height: 32px;
-}
-
-.price-table .value span:nth-child(2) {
-    font-size: 65px;
-    line-height: 65px;
-    margin-bottom: 25px;
-}
-
-.price-table .value span:last-child {
-    font-size: 16px;
-}
-
-.price-table ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-}
-
-.price-table ul li {
-    border-top: 1px solid #e3e3e3;
-    display: block;
-    padding: 25px 0;
-
-    -webkit-transition: all 0.7s ease 0s;
-    -moz-transition: all 0.7s ease 0s;
-    -ms-transition: all 0.7s ease 0s;
-    -o-transition: all 0.7s ease 0s;
-    transition: all 0.7s ease 0s;
-}
-
-.price-table ul li a {
-    display: block;
-    text-transform: uppercase;
-}
-
-.price-table.featured ul li:last-child,
-.price-table ul li:last-child:hover {
-    background-color: #009EE3;
-}
-
-.price-table.featured ul li:last-child a,
-.price-table ul li:last-child:hover a {
-    color: #fff;
-}
-
-
-/*=================================================================
-	Price
-==================================================================*/
-
-#social {
-    background-image: url(../img/portfolio/item2.jpg);
-    padding: 0;
-}
-
-#social .overlay {
-    background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;
-    padding: 100px 0 120px;
-}
+/* CUSTOM CODE */
 
 #home-slider {
     position: relative;
@@ -1291,79 +884,6 @@ ul.external li a:hover {
 /*    border: 2px solid #5061ff;*/
 /*}*/
 
-
-/*=================================================================
-	Contact
-==================================================================*/
-
-.input-field {
-    margin-bottom: 10px;
-}
-
-.form-control {
-    border: 1px solid #ececec;
-    border-radius: 0;
-    box-shadow: none;
-    color: #818181;
-    font-size: 16px;
-    height: 50px;
-}
-
-textarea.form-control {
-    width: 100%;
-    height: 165px;
-}
-
-#submit:hover {
-    color: #fff;
-}
-
-#submit:before {
-    background-color: #0A85BB;
-}
-
-#submit.btn-effect:after {
-    background: #2E2E2E;
-}
-
-.contact-details h3 {
-    border-bottom: 1px solid #008ecc;
-    font-weight: 700;
-    margin-bottom: 15px;
-    padding-bottom: 15px;
-    text-transform: uppercase;
-}
-
-.contact-details p {
-    line-height: 30px;
-}
-
-.contact-details p i {
-    margin-right: 10px;
-}
-
-.contact-details span {
-    display: block;
-    margin-left: 24px;
-}
-
-
-/*============================================================
-	Google Maps
-==============================================================*/
-
-#google-map {
-    padding: 0;
-}
-
-#map-canvas {
-    width: 100%;
-    height: 300px;
-}
-
-/*============================================================
-	CUSTOM CODE
-==============================================================*/
 .inst-icon {
     width: 14px;
     height: 14px;
@@ -1374,9 +894,7 @@ textarea.form-control {
     height: 18px;
 }
 
-/*============================================================
-	Footer
-==============================================================*/
+/* Footer */
 
 #footer {
     /* background-color: #2E2E2E; */
@@ -1544,10 +1062,7 @@ textarea.form-control {
     color: #fff;
 }
 
-
-/*============================================================
-	Responsive Styles
- ============================================================*/
+/* Media Query */
 
 @media (min-width: 1700px) {
     .collaboration-decor-1 {
@@ -1563,9 +1078,7 @@ textarea.form-control {
     }
 }
 
-/*============================================================
-	For Small Desktop
-==============================================================*/
+/*------------------------------------ */
 
 @media (max-width: 991px) {
     .services-title {
@@ -1600,9 +1113,7 @@ textarea.form-control {
 }
 
 
-/*============================================================
-	Tablet (Portrait) Design for a width of 768px
-==============================================================*/
+/* ------------------------------------ */
 
 @media (min-width: 767px) and (max-width: 990px) {
     .collaboration-title {
@@ -1651,22 +1162,10 @@ textarea.form-control {
     .testimonial-item > div:after {
         bottom: -35px;
     }
-
-    /* price */
-    .price-table {
-        margin-bottom: 50px;
-    }
-
-    /* contact form */
-    .contact-form {
-        margin-bottom: 50px;
-    }
 }
 
 
-/*============================================================
-	Mobile (Portrait) Design for a width of 320px
-==============================================================*/
+/* ------------------------------------ */
 @media only screen and (max-width: 767px) {
 
     body {
@@ -1686,7 +1185,6 @@ textarea.form-control {
         left: 30%;
     }
 
-    /*navigation*/
     .navbar-inverse .navbar-toggle {
         border-color: #fff;
     }
@@ -1711,7 +1209,6 @@ textarea.form-control {
         margin-left: 0;
     }
 
-    /* slider */
     .caption-content h2 {
         font-size: 18px;
     }
@@ -1730,7 +1227,6 @@ textarea.form-control {
         font-size: 22px;
     }
 
-    /* about */
     .recent-works {
         margin-bottom: 85px;
     }
@@ -1752,12 +1248,10 @@ textarea.form-control {
         margin: 0 25px 15px 0;
     }
 
-    /* service */
     .service-item {
         width: 100%;
     }
 
-    /*portfolio*/
     .portfolio-item {
         margin: 0 auto 10px;
         font-size: 14px;
@@ -1772,7 +1266,6 @@ textarea.form-control {
     /*    figcaption.mask p {
             line-height: 1;
         }*/
-    /* lightbox */
     .fancybox-title h3 {
         font-size: 20px;
     }
@@ -1781,7 +1274,6 @@ textarea.form-control {
         font-size: 14px;
     }
 
-    /* testimonial */
     .testimonial-item {
         width: 95%;
     }
@@ -1793,11 +1285,6 @@ textarea.form-control {
 
     .testimonial-item > div > span {
         margin: 30px 0 20px;
-    }
-
-    /* price */
-    .price-table {
-        margin-bottom: 50px;
     }
 
     /* follow us */
@@ -1813,12 +1300,6 @@ textarea.form-control {
     /*    line-height: 71px;*/
     /*    width: 65px;*/
     /*}*/
-    /* contact form */
-    .contact-form {
-        margin-bottom: 50px;
-    }
-
-    /* footer */
     .footer-content {
         width: 100%;
     }
@@ -1852,9 +1333,7 @@ textarea.form-control {
     }
 }
 
-/*============================================================
-	Mobile (Landscape) Design for a width of 480px
-==============================================================*/
+/* ------------------------------------ */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 
@@ -1866,7 +1345,6 @@ textarea.form-control {
         left: 38%;
     }
 
-    /* home slider */
     .caption-content h2 {
         font-size: 35px;
     }
@@ -1879,18 +1357,15 @@ textarea.form-control {
         font-size: 35px;
     }
 
-    /*about*/
     #about .welcome-block h3 {
         margin: 0 0 35px;
     }
 
-    /* service */
     .service-item {
         margin: 0 auto 50px;
         width: 55%;
     }
 
-    /* portfolio */
     .portfolio-item {
         width: 48%;
     }
@@ -1907,7 +1382,7 @@ textarea.form-control {
         bottom: 160px;
     }
 
-    /* social */
+
     /*.social-button li:nth-child(2) {*/
     /*    margin: 0 50px;*/
     /*}*/
@@ -1916,17 +1391,6 @@ textarea.form-control {
     /*    line-height: 96px;*/
     /*    width: 90px;*/
     /*}*/
-    /* price */
-    .price-table {
-        margin-bottom: 50px;
-    }
-
-    /* contact form */
-    .contact-form {
-        margin-bottom: 50px;
-    }
-
-    /* footer */
     .footer-content {
         width: 380px;
     }
