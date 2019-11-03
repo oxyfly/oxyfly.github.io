@@ -154,11 +154,15 @@
 }
 
 .bg-img-2 {
-    background-image: url(../img/banner-slide-01.jpg);
+    background-image: url(../img/banner-slide-02.jpg);
 }
 
 .bg-img-3 {
-    background-image: url(../img/banner-slide-01.jpg);
+    background-image: url(../img/banner-slide-03.jpg);
+}
+
+.bg-img-4 {
+    background-image: url(../img/banner-slide-04.jpg);
 }
 
 
