@@ -898,6 +898,7 @@ ul.external li a:hover {
 /* Footer */
 
 #footer {
+    position: relative;
     /* background-color: #2E2E2E; */
     /*background-color: #4146a9;*/
     background: url(../img/footer-map.png) no-repeat center, #4146a9;
@@ -942,12 +943,12 @@ ul.external li a:hover {
     text-align: right;
 }
 
-.footer-copyright {
+#footer .footer-copyright {
     position: absolute;
     left: 0;
     right: 0;
     bottom: -20rem;
-    font-size: 10px !important;
+    font-size: 10px;
 }
 
 .subscribe-form {
@@ -1061,6 +1062,27 @@ ul.external li a:hover {
 .back-to-top:hover {
     background: #1bcee4;
     color: #fff;
+}
+
+#footer .developer {
+    position: absolute;
+    text-align: left;
+    font-size: 10px;
+    bottom: 0;
+    margin-bottom: 0;
+    padding: 0 15px;
+}
+
+.developer span:first-child {
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.developer span:last-child {
+    color: #1bcee4;
+}
+
+.developer span:last-child:hover {
+    color: #1ee7ff;
 }
 
 /* Media Query */
@@ -1210,6 +1232,10 @@ ul.external li a:hover {
         margin-left: 0;
     }
 
+    .container > .navbar-header {
+        margin-bottom: 0.5rem;
+    }
+
     .caption-content h2 {
         font-size: 18px;
     }
@@ -1311,7 +1337,11 @@ ul.external li a:hover {
     }
 
     .footer-social {
-        bottom: -20rem;
+        bottom: -17rem;
+    }
+
+    #footer .footer-copyright {
+        bottom: -18.5rem;
     }
 
     .footer-copyright {
@@ -1331,6 +1361,13 @@ ul.external li a:hover {
         -webkit-box-align: center !important;
         -ms-flex-align: center !important;
         align-items: center !important;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    #footer .developer {
+        width: 100%;
+        text-align: center;
     }
 }
 
