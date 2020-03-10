@@ -199,7 +199,7 @@ jQuery(function ($) {
   });
 
   // Contact form
-    var form = $('#main-contact-form');
+  /*  var form = $('#main-contact-form');
     form.submit(function (event) {
       event.preventDefault();
       var form_status = $('<div class="form_status"></div>');
@@ -211,7 +211,7 @@ jQuery(function ($) {
       }).done(function (data) {
         form_status.html('<p class="text-success">Thank you for contact us. As early as possible  we will contact you</p>').delay(3000).fadeOut();
       });
-    });
+    });*/
 
   // Pretty Photo
   $("a[rel^='prettyPhoto']").prettyPhoto({
@@ -219,23 +219,23 @@ jQuery(function ($) {
   });
 
   // Google Map
-  var latitude = $('#google-map').data('latitude');
-  var longitude = $('#google-map').data('longitude');
+  /*  var latitude = $('#google-map').data('latitude');
+    var longitude = $('#google-map').data('longitude');
 
-  function initialize_map() {
-    var myLatlng = new google.maps.LatLng(latitude, longitude);
-    var mapOptions = {
-      zoom: 14,
-      scrollwheel: false,
-      center: myLatlng
-    };
-    var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
-    var marker = new google.maps.Marker({
-      position: myLatlng,
-      map: map
-    });
-  }
+    function initialize_map() {
+      var myLatlng = new google.maps.LatLng(latitude, longitude);
+      var mapOptions = {
+        zoom: 14,
+        scrollwheel: false,
+        center: myLatlng
+      };
+      var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
+      var marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map
+      });
+    }
 
-  google.maps.event.addDomListener(window, 'load', initialize_map);
+    google.maps.event.addDomListener(window, 'load', initialize_map);*/
 
 });
