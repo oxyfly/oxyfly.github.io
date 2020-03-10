@@ -1115,6 +1115,10 @@ ul.nostyle i {
     font-family: 'Roboto-medium';
 }
 
+#pricing ul.pricing li.plan-purchase .btn-primary:hover {
+    background: rgb(255, 133, 56);
+}
+
 #pricing ul.pricing li.plan-header .plan-price span {
     font-size: 18px;
     display: block;
@@ -1186,6 +1190,10 @@ ul.nostyle i {
 
 #get-in-touch .address a {
     color: #454545;
+}
+
+#get-in-touch .address a:hover {
+    color: #f26522;
 }
 
 #get-in-touch .form-control {
@@ -1394,7 +1402,7 @@ ul.nostyle i {
 }
 
 #footer a:hover {
-    color: #45aed6;
+    color: #f26522;
 }
 
 #footer ul {
