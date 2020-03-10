@@ -1139,6 +1139,11 @@ ul.nostyle i {
     color: #fff;
 }
 
+#map {
+    width: 100%;
+    height: 300px;
+}
+
 #get-in-touch {
     padding: 60px 0 50px;
     color: #454545;
