@@ -1127,9 +1127,10 @@ ul.nostyle i {
 }
 
 #get-in-touch .address {
-    float: left;
+    /*float: left;*/
     width: 100%;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 #get-in-touch .address h4 {
