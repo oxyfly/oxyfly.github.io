@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1c484055-52a0-470b-8e68-4f8700fccbac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icon2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/icon2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icon3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/icon3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icon4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/icon4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icon5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/icon6.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +56,7 @@
       <workItem from="1573111155454" duration="620000" />
       <workItem from="1573119942334" duration="25000" />
       <workItem from="1573137157927" duration="617000" />
-      <workItem from="1583828178057" duration="1610000" />
+      <workItem from="1583828178057" duration="2721000" />
     </task>
     <servers />
   </component>
