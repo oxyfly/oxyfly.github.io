@@ -1007,6 +1007,12 @@ ul.nostyle i {
     transform: scale(1.1);
 }
 
+#pricing ul.pricing li.plan-header-hit {
+    background-color: #f26522;
+    clip-path: polygon(0 0, 100% 0, 100% 81%, 0 100%);
+    margin: -14px -14px 10px !important;
+}
+
 .plan-price-hit-img {
     width: 100px;
     height: auto;
@@ -1089,9 +1095,14 @@ ul.nostyle i {
     text-transform: uppercase;
 }
 
+#pricing ul.pricing li.plan-header .plan-name-hit {
+    color: #fff;
+}
+
 #pricing ul.pricing li.plan-header .plan-price-hit {
     margin-top: 10px;
     font-size: 56px;
+    color: #fff;
 }
 
 #pricing ul.pricing li.plan-purchase .btn-primary {
