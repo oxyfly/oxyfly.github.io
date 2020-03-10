@@ -1009,6 +1009,7 @@ ul.nostyle i {
 
 #pricing ul.pricing li.plan-header-hit {
     background-color: #f26522;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 81%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 81%, 0 100%);
     margin: -14px -14px 10px !important;
 }
