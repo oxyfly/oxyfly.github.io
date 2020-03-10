@@ -1007,6 +1007,14 @@ ul.nostyle i {
     transform: scale(1.1);
 }
 
+.plan-price-hit-img {
+    width: 100px;
+    height: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+    padding-bottom: 30px;
+}
+
 #pricing ul.pricing:hover {
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease 0s;
