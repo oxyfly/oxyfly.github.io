@@ -1,47 +1,18 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-workspace
 
-# Folder config file
-Desktop.ini
+# dependencies
+node_modules
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+# System Files & Misc
 .DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+Thumbs.db
+.cache-loader
+npm-debug.log
+yarn-error.log
+resources/assets/config-local.json
+wp-content/plugins/w3-total-cache
+wp-content/cache
+wp-content/w3tc-config
