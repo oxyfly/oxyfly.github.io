@@ -647,6 +647,10 @@ ul.nostyle i {
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
+    width: 261px;
+    height: 174px;
+    -o-object-fit: cover;
+    object-fit: cover;
 }
 
 .img-responsive:hover {
@@ -1459,5 +1463,12 @@ ul.nostyle i {
         -ms-transform: scale(1);
         -o-transform: scale(1);
         transform: scale(1);
+    }
+
+    .img-responsive {
+        width: 63px;
+        height: 52px;
+        -o-object-fit: cover;
+        object-fit: cover;
     }
 }
