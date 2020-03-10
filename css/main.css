@@ -67,7 +67,7 @@ h6 {
 }
 
 .Light49 {
-    font-family: 'Roboto-thin';
+    font-family: 'Roboto-thin', sans-serif;
     font-size: 49px;
 }
 
@@ -194,7 +194,6 @@ ul.nostyle i {
     animation-name: scaleIn;
 }
 
-
 @media (min-width: 767px) {
     .navbar {
         padding: 20px 0;
@@ -207,7 +206,6 @@ ul.nostyle i {
         padding: 0;
     }
 }
-
 
 @-webkit-keyframes scaleIn {
     0% {
@@ -237,9 +235,7 @@ ul.nostyle i {
     }
 }
 
-/*************************
-*******Header******
-**************************/
+/* header */
 .navbar.navbar-default {
     border: 0;
     border-radius: 0;
@@ -254,7 +250,6 @@ ul.nostyle i {
 .navbar.navbar-default .navbar-brand {
     height: auto;
     padding: 5px;
-    /*padding: 22px 15px 15px;*/
 }
 
 .navbar.navbar-default .navbar-brand img {
@@ -272,7 +267,7 @@ ul.nostyle i {
         padding-top: 20px;
         padding-bottom: 20px;
         font-size: 16px;
-        font-family: 'Roboto-regular';
+        font-family: 'Roboto-regular', sans-serif;
         font-weight: normal;
     }
 
@@ -363,8 +358,7 @@ ul.nostyle i {
     margin-top: 247px;
     font-size: 40px;
     line-height: 1;
-    /*text-transform: capitalize;*/
-    font-family: 'Roboto-thin';
+    font-family: 'Roboto-thin', sans-serif;
     color: #fff;
     text-align: center;
 }
@@ -373,8 +367,7 @@ ul.nostyle i {
     margin-top: 20px;
     font-size: 16px;
     line-height: 25px;
-    /*text-transform: capitalize;*/
-    font-family: 'Roboto-regular';
+    font-family: 'Roboto-regular', sans-serif;
     color: #fff;
     text-align: center;
 }
@@ -465,7 +458,6 @@ ul.nostyle i {
     text-align: center;
 }
 
-
 .media.service-box .pull-left {
     width: 100%;
     padding-bottom: 25px;
@@ -509,7 +501,7 @@ ul.nostyle i {
 
 .media-body h4 {
     margin-bottom: 15px;
-    font-family: 'Roboto-light';
+    font-family: 'Roboto-light', sans-serif;
     font-size: 22px;
     color: #454545;
 }
@@ -548,7 +540,7 @@ ul.nostyle i {
 #portfolio .portfolio-filter > li a {
     display: block;
     padding: 7px 15px;
-    font-family: 'Roboto-regular';
+    font-family: 'Roboto-regular', sans-serif;
     color: #64686d;
     position: relative;
 }
@@ -572,7 +564,7 @@ ul.nostyle i {
   border-color: #318daf transparent transparent transparent;
 }*/
 #portfolio .portfolio-filter > li:first-child a {
-    border-radius: 0px 0 0 0px;
+    border-radius: 0 0 0 0;
 }
 
 #portfolio .portfolio-filter > li:last-child a {
@@ -661,8 +653,7 @@ ul.nostyle i {
     transform: scale(1.05);
 }
 
-/* Start: Recommended Isotope styles */
-/**** Isotope Filtering ****/
+/* Isotope Filtering */
 .isotope-item {
     z-index: 2;
 }
@@ -672,7 +663,7 @@ ul.nostyle i {
     z-index: 1;
 }
 
-/**** Isotope CSS3 transitions ****/
+/* Isotope CSS3 transitions */
 .isotope,
 .isotope .isotope-item {
     -webkit-transition-duration: 0.8s;
@@ -698,7 +689,7 @@ ul.nostyle i {
     transition-property: transform, opacity;
 }
 
-/**** disabling Isotope CSS3 transitions ****/
+/* disabling Isotope CSS3 transitions */
 .isotope.no-transition,
 .isotope.no-transition .isotope-item,
 .isotope .isotope-item.no-transition {
@@ -709,8 +700,7 @@ ul.nostyle i {
     transition-duration: 0s;
 }
 
-/* End: Recommended Isotope styles */
-/* disable CSS transitions for containers with infinite scrolling*/
+/* disable CSS transitions for containers with infinite scrolling */
 .isotope.infinite-scrolling {
     -webkit-transition: none;
     -moz-transition: none;
@@ -933,7 +923,7 @@ ul.nostyle i {
 #animated-number {
     display: none;
     padding: 87px 0 87px;
-    background: #132125 url(../images/bg.jpg) no-repeat 0 0;
+    background: #132125 url(../images/bg-1.jpg) no-repeat 0 0;
     background-size: cover;
     color: #fff;
 }
@@ -967,7 +957,6 @@ ul.nostyle i {
 
 #pricing {
     padding: 84px 0 70px 0;
-    /*background: #c4f0fb;*/
     position: relative;
     background-image: url(../images/bg-1.jpg);
     background-repeat: repeat;
@@ -988,7 +977,6 @@ ul.nostyle i {
 
 #pricing ul.pricing {
     list-style: none;
-    padding: 0;
     margin: 10px 0 30px;
     border: 1px solid #eee;
     border-radius: 5px 5px 4px 4px;
@@ -1079,7 +1067,7 @@ ul.nostyle i {
 #pricing ul.pricing li.plan-header .plan-name {
     margin-top: 10px;
     font-size: 20px;
-    font-family: 'Roboto-medium';
+    font-family: 'Roboto-medium', sans-serif;
     color: #272727;
     font-weight: normal;
     line-height: 2;
@@ -1092,7 +1080,7 @@ ul.nostyle i {
     color: #454545;
     font-weight: 600;
     line-height: 1;
-    font-family: 'Roboto-regular';
+    font-family: 'Roboto-regular', sans-serif;
     text-transform: uppercase;
 }
 
@@ -1112,7 +1100,7 @@ ul.nostyle i {
     margin-top: 25px;
     padding: 15px 25px 10px;
     font-size: 18px;
-    font-family: 'Roboto-medium';
+    font-family: 'Roboto-medium', sans-serif;
 }
 
 #pricing ul.pricing li.plan-purchase .btn-primary:hover {
@@ -1198,7 +1186,7 @@ ul.nostyle i {
 
 #get-in-touch .form-control {
     height: 40px;
-    font-family: 'Roboto-regular';
+    font-family: 'Roboto-regular', sans-serif;
     color: #323232;
 }
 
@@ -1208,7 +1196,7 @@ ul.nostyle i {
 }
 
 #get-in-touch .btn.btn-primary {
-    font-family: 'Roboto-medium';
+    font-family: 'Roboto-medium', sans-serif;
     font-size: 22px;
     padding: 8px 40px;
 }
@@ -1270,7 +1258,7 @@ ul.nostyle i {
 
 #blog .blog-post.blog-large .entry-date {
     font-size: 12px;
-    font-family: 'Roboto-regular';
+    font-family: 'Roboto-regular', sans-serif;
     display: block;
     margin-bottom: 5px;
     text-align: center;
@@ -1290,7 +1278,7 @@ ul.nostyle i {
     font-size: 18px;
     text-transform: uppercase;
     font-weight: normal;
-    font-family: 'Roboto-medium';
+    font-family: 'Roboto-medium', sans-serif;
 }
 
 #blog .blog-post.blog-large .entry-title a:hover {
@@ -1356,7 +1344,7 @@ ul.nostyle i {
 }
 
 #blog .btn.btn-primary {
-    font-family: 'Roboto-regular';
+    font-family: 'Roboto-regular', sans-serif;
     font-size: 15px;
     margin-top: 20px;
     padding: 10px 30px;
@@ -1387,9 +1375,7 @@ ul.nostyle i {
     margin-top: 0;
 }
 
-/***********************
-********* Footer ******
-************************/
+/* footer */
 #footer {
     padding-top: 10px;
     padding-bottom: 10px;
