@@ -1133,6 +1133,14 @@ ul.nostyle i {
     text-align: center;
 }
 
+/*#get-in-touch .address-phone {
+    float: right;
+}
+
+#get-in-touch .address-mail {
+    float: left;
+}*/
+
 #get-in-touch .address h4 {
     font-size: 16px;
     color: #454545;
