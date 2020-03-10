@@ -994,6 +994,15 @@ ul.nostyle i {
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
+#pricing ul.pricing-hit {
+    border: 3px solid #f26522;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
 #pricing ul.pricing:hover {
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease 0s;
@@ -1060,12 +1069,17 @@ ul.nostyle i {
 
 #pricing ul.pricing li.plan-header .plan-price {
     margin-top: 10px;
-    font-size: 60px;
+    font-size: 40px;
     color: #454545;
     font-weight: 600;
     line-height: 1;
     font-family: 'Roboto-regular';
     text-transform: uppercase;
+}
+
+#pricing ul.pricing li.plan-header .plan-price-hit {
+    margin-top: 10px;
+    font-size: 56px;
 }
 
 #pricing ul.pricing li.plan-purchase .btn-primary {
@@ -1426,6 +1440,15 @@ ul.nostyle i {
     }
 
     #blog .blog-post.blog-large .entry-thumbnail {
-        padding-top: 0px;
+        padding-top: 0;
+    }
+
+    #pricing ul.pricing-hit {
+        border: 1px solid #eee;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
     }
 }
