@@ -1504,4 +1504,8 @@ ul.nostyle i {
         -o-object-fit: cover;
         object-fit: cover;
     }
+
+    .navbar.navbar-default .navbar-brand {
+        padding: 20px 5px 5px 5px;
+    }
 }
