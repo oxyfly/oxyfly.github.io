@@ -775,6 +775,17 @@ nav .small-menu {
     background-color: #FFF;
 }
 
+.blog-img {
+    text-align: center;
+}
+
+.blog-img img {
+    max-width: 100%;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
 @media screen and (max-width: 720px) {
     .home-blog {
         padding: 10px;
@@ -816,7 +827,8 @@ nav .small-menu {
 .blog-1 .pof-det {
     padding: 10px;
     padding-left: 10px;
-    padding-left: 60px;
+    text-align: center;
+    /*padding-left: 60px;*/
 }
 
 .blog-1 .pof-det b {
