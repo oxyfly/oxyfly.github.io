@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c484055-52a0-470b-8e68-4f8700fccbac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="1c484055-52a0-470b-8e68-4f8700fccbac" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +24,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="/media/andrew/seagate/documents/web_dev/github/github/projects/commercial/wordpress/aktiv-ru" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
@@ -53,6 +50,7 @@
       <workItem from="1583828178057" duration="19620000" />
       <workItem from="1583857760379" duration="279000" />
       <workItem from="1583859296581" duration="4147000" />
+      <workItem from="1583916015396" duration="80000" />
     </task>
     <servers />
   </component>
@@ -73,10 +71,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="743" y="311" width="424" height="480" key="FileChooserDialogImpl" timestamp="1583858037687">
+    <state x="743" y="311" width="424" height="480" key="FileChooserDialogImpl" timestamp="1583916093509">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="743" y="311" width="424" height="480" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1583858037687" />
+    <state x="743" y="311" width="424" height="480" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1583916093509" />
     <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1583843141702">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
