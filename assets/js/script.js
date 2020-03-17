@@ -12,17 +12,6 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  var w = $(window).width();
-
-  if (w < 400) {
-    $(".regular").slick({
-      lazyLoad: 'ondemand',
-      dots: true,
-      infinite: false,
-      slidesToShow: 3,
-      slidesToScroll: 3
-    });
-  } else {
     $(".regular").slick({
       lazyLoad: 'ondemand',
       dots: true,
@@ -40,7 +29,7 @@ $(document).ready(function () {
           }
         },
         {
-          breakpoint: 400,
+          breakpoint: 576,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
@@ -50,7 +39,7 @@ $(document).ready(function () {
         },
       ]
     });
-  }
+
 });
 
 $(document).ready(function () {
