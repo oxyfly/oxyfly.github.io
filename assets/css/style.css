@@ -137,6 +137,7 @@ h2 {
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -245,6 +246,12 @@ nav img {
 nav i {
     margin-right: 15px !important;
 }
+
+/*@media screen and (min-width: 769px) {
+    .header-top {
+        display: none !important;
+    }
+}*/
 
 @media screen and (max-width: 760px) {
     nav img {
@@ -848,17 +855,17 @@ nav .small-menu {
 
 /* ===================================== Testimonial Style  ================================== */
 .testimonial-container {
-    background-image: url("../images/slider_demo.jpg");
+    background-image: url("../images/key_features_01.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .testimonial-container .layy {
-    background: rgba(31, 72, 126, 0.8);
+    background: rgba(34, 53, 121, 0.9);
     height: 100%;
     width: 100%;
     color: #FFF;
-    padding: 60px;
+    padding: 100px 60px;
 }
 
 @media screen and (max-width: 720px) {
@@ -871,6 +878,12 @@ nav .small-menu {
 .client-list {
     background-color: #FFF;
     padding: 60px;
+}
+
+.card-1 {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);;
+    -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);;
 }
 
 @media screen and (max-width: 720px) {
