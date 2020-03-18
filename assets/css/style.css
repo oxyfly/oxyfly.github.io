@@ -1095,3 +1095,9 @@ footer li {
 .nb-jkj {
     background-color: rgba(34, 53, 121, 0.9);
 }
+
+@media (min-width: 2047px) {
+    .tp-bgimg {
+        background-position: inherit !important;
+    }
+}
