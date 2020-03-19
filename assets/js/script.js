@@ -12,33 +12,33 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    $(".regular").slick({
-      lazyLoad: 'ondemand',
-      dots: true,
-      infinite: false,
-      slidesToShow: 5,
-      slidesToScroll: 5,
-      responsive: [
-        {
-          breakpoint: 1200,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            arrows: false,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 576,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            arrows: false,
-            dots: true
-          }
-        },
-      ]
-    });
+  $(".regular").slick({
+    lazyLoad: 'ondemand',
+    dots: true,
+    infinite: false,
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          arrows: false,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          arrows: false,
+          dots: true
+        }
+      },
+    ]
+  });
 
 });
 
@@ -102,4 +102,19 @@ $(document).ready(function () {
     });
   });
 
+});
+
+///////////// Flip Blocks /////////////
+
+jQuery(document).ready(function ($) {
+  let countSquare = $('.square').length;
+  for (i = 0; i < countSquare; i++) {
+    let firstImage = $('.square').eq([i]);
+    let secondImage = $('.square2').eq([i]);
+    let getImage = firstImage.attr('data-image');
+    let getImage2 = secondImage.attr('data-image');
+
+    firstImage.css('background-image', 'url(' + getImage + ')');
+    secondImage.css('background-image', 'url(' + getImage2 + ')');
+  }
 });
