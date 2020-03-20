@@ -659,6 +659,14 @@ nav .small-menu {
     background-position: center;
 }
 
+.tp-leftarrow {
+    left: 0 !important;
+}
+
+.tp-rightarrow {
+    right: 0 !important;
+}
+
 /*/// Flip Blocks ///*/
 
 .square-flip {
