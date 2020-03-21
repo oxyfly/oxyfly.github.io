@@ -1436,6 +1436,10 @@ footer li {
     color: rgb(34, 53, 121);
 }
 
+.slide-btn:hover {
+    background-color: #fe0a00 !important;
+}
+
 .btn-success {
     color: #fff !important;
 }
