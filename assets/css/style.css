@@ -705,6 +705,15 @@ nav .small-menu {
         -o-object-fit: cover;
         object-fit: cover;
     }
+
+    .slider .medium_font_size {
+        margin-top: 0;
+    }
+
+    .tp-caption.dark_font_color,
+    .tp-simpleresponsive .tp-caption {
+        padding: 5px 5px !important;
+    }
 }
 
 .square, .square2 {
@@ -977,11 +986,27 @@ nav .small-menu {
 }
 
 @media screen and (max-width: 720px) {
+    .slider .medium_font_size {
+        margin-top: 30px;
+    }
+
+    #slider .layer-five {
+        left: 2rem !important;
+    }
+
     .slider .mini_font_size {
         display: none;
     }
 
     .slider .small_font_size {
+        display: none;
+    }
+
+    .layer-four {
+        display: none !important;
+    }
+
+    .slide-btn {
         display: none;
     }
 }
@@ -993,7 +1018,7 @@ nav .small-menu {
 
     .slider .medium_font_size {
         font-size: 10px !important;
-        margin-top: 20px !important;
+        /*margin-top: 20px !important;*/
     }
 }
 
