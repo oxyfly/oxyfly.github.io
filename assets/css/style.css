@@ -1218,6 +1218,10 @@ nav .small-menu {
     padding: 100px 60px;
 }
 
+.testimonial-container .owl-theme .owl-controls {
+    margin-left: 0;
+}
+
 @media screen and (max-width: 720px) {
     .testimonial-container .layy {
         padding: 10px;
