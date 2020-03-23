@@ -243,6 +243,16 @@ nav i {
     }
 }*/
 
+@media screen and (max-width: 768px) {
+    #key-feature-conten {
+        padding-top: 30px;
+    }
+
+    .key-feature-conten-title {
+        padding-bottom: 0;
+    }
+}
+
 @media screen and (max-width: 760px) {
     nav img {
         width: 65%;
