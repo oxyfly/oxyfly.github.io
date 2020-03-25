@@ -1349,6 +1349,24 @@ footer li {
     text-indent: 20px;
 }
 
+@media (min-width: 1922px) {
+    .cooperation {
+        min-height: 1000px;
+    }
+}
+
+@media (min-width: 2879px) {
+    .cooperation {
+        min-height: 1200px;
+    }
+}
+
+@media (min-width: 3839px) {
+    .cooperation {
+        min-height: 1600px;
+    }
+}
+
 /* ===================================== Our Team Style  ================================== */
 .our-team {
     padding: 40px;
