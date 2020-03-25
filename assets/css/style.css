@@ -1073,6 +1073,7 @@ nav .small-menu {
 .home-about {
     height: 400px;
     overflow: hidden;
+    margin-top: 90px;
 }
 
 .home-about .about-img {
