@@ -1144,6 +1144,7 @@ nav .small-menu {
 
 .blog-img {
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .blog-img img {
@@ -1201,7 +1202,7 @@ nav .small-menu {
 }
 
 .blog-1 .pof-det b {
-    font-size: 13px;
+    font-size: 20px;
 }
 
 .blog-1 .pof-det p {
