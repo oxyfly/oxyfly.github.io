@@ -1090,18 +1090,18 @@ nav .small-menu {
 }
 
 .home-about .adout-det {
-    background-image: url("../images/key_features_02.jpg");
+    /*background-image: url("../images/key_features_02.jpg");*/
     background-size: cover;
     background-position: center;
     height: 100%;
-    padding: 0px;
+    /*padding: 0;*/
 }
 
 .home-about .adout-det .layy {
     background: rgba(34, 53, 121, 0.9);
     height: 100%;
     color: #FFF;
-    padding: 40px 40px 64px;
+    padding: 40px 64px;
 }
 
 .home-about .adout-det b {
@@ -1151,6 +1151,8 @@ nav .small-menu {
     border-radius: 50%;
     width: 150px;
     height: 150px;
+    -o-object-fit: cover;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 720px) {
