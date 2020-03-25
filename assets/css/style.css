@@ -709,6 +709,20 @@ nav .small-menu {
 }
 
 @media (max-width: 576px) {
+    .tp-leftarrow.default,
+    .tp-rightarrow.default {
+        width: 20px;
+        height: 30px;
+    }
+
+    .tp-leftarrow.default {
+        background: url(../../assets/plugins/revolution/css/large_left.png) no-repeat -15px -9px;
+    }
+
+    .tp-rightarrow.default {
+        background: url(../../assets/plugins/revolution/css/large_right.png) no-repeat -15px -9px;
+    }
+
     .square-flip {
         width: 100%;
         height: 400px;
@@ -1001,7 +1015,8 @@ nav .small-menu {
     }
 
     #slider .layer-five {
-        left: 2rem !important;
+        left: 3rem !important;
+        top: 3rem !important;
     }
 
     .slider .mini_font_size {
@@ -1116,6 +1131,10 @@ nav .small-menu {
 }
 
 @media (max-width: 1025px) {
+    .tparrows.hidearrows {
+        opacity: 1;
+    }
+
     .home-about {
         height: auto
     }
