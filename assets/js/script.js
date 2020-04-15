@@ -55,7 +55,7 @@ $(document).ready(function () {
 
       delay: 9000,
       startwidth: 1140,
-      startheight: 400,
+      startheight: 459,
       hideThumbs: 200,
 
       thumbWidth: 100,

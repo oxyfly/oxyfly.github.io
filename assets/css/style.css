@@ -1555,8 +1555,17 @@ footer li {
   background-color: rgba(34, 53, 121, 0.9);
 }
 
-@media (min-width: 2047px) {
+.tp-bgimg {
+  background-position: top !important;
+}
+
+@media (max-width: 1441px) {
   .tp-bgimg {
-    background-position: inherit !important;
+    background-size: contain !important;
+    background-position: center top !important;
+  }
+
+  .key-feature-conten {
+    padding-top: 0;
   }
 }
