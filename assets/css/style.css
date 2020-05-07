@@ -160,8 +160,9 @@ section {
 }
 
 .page-nav h2 {
-  font-size: 40px;
-  color: #444;
+  font-size: 32px;
+  font-weight: 600;
+  /*color: #444;*/
 }
 
 .page-nav ul li {
