@@ -54,9 +54,9 @@ $(document).ready(function () {
     revapi = jQuery('.fullwidthbanner').revolution({
 
       delay: 9000,
-      startwidth: 1140,
-      startheight: 459,
-      hideThumbs: 200,
+      // startwidth: 1140,
+      // startheight: 500,
+      // hideThumbs: 200,
 
       thumbWidth: 100,
       thumbHeight: 50,

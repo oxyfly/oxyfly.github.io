@@ -1573,7 +1573,7 @@ footer li {
 }
 
 .tp-bgimg {
-    background-position: top !important;
+    /*background-position: top !important;*/
 }
 
 .slick-initialized .slick-slide {
@@ -1593,9 +1593,5 @@ footer li {
     .tp-bgimg {
         background-size: contain !important;
         background-position: center top !important;
-    }
-
-    .key-feature-conten {
-        padding-top: 0;
     }
 }
