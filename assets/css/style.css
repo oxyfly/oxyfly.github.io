@@ -1595,3 +1595,7 @@ footer li {
         background-position: center top !important;
     }
 }
+
+.carousel-control-next, .carousel-control-prev {
+    width: 4%;
+}
