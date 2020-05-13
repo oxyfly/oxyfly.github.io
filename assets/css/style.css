@@ -63,6 +63,10 @@ a {
     outline: none;
 }
 
+a:hover {
+    color: #2e3192;
+}
+
 ul {
     margin-bottom: 0;
     padding-left: 0;
@@ -189,7 +193,8 @@ header {
 }
 
 .header-top {
-    background-color: rgb(34, 53, 121);
+    /*background-color: rgb(34, 53, 121);*/
+    background-color: #2e3192;
     color: #FFF;
 }
 
@@ -369,8 +374,21 @@ nav li:hover .sub-menu a {
     color: #444;
 }
 
+nav a {
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #2e3192;
+}
+
 nav li:hover a {
-    color: rgb(34, 53, 121);
+    /*color: rgb(34, 53, 121);*/
+    color: #2e3192;
 }
 
 nav a {
@@ -901,7 +919,7 @@ nav .small-menu {
 /*Elements*/
 .flip-overlay {
     display: block;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.2);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -1124,7 +1142,8 @@ nav .small-menu {
 }
 
 .home-about .adout-det .layy {
-    background: rgba(34, 53, 121, 0.9);
+    /*background: rgba(34, 53, 121, 0.9);*/
+    background: #2e3192;
     height: 100%;
     color: #FFF;
     padding: 40px 64px;
@@ -1208,12 +1227,13 @@ nav .small-menu {
     -ms-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
+    color: #2e3192;
 }
 
 .blog-1:hover {
-    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.04), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.04), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.04), 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+    /*-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.04), 0 2px 10px 0 rgba(0, 0, 0, 0.1);*/
+    /*-moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.04), 0 2px 10px 0 rgba(0, 0, 0, 0.1);*/
+    box-shadow: 0 2px 5px 0 rgba(46, 49, 146, 0.04), 0 2px 10px 0 rgba(46, 49, 146, 0.1);
 }
 
 .blog-1 .cdfik li {
@@ -1268,7 +1288,8 @@ nav .small-menu {
 }
 
 .testimonial-container .layy {
-    background: rgba(34, 53, 121, 0.9);
+    /*background: rgba(34, 53, 121, 0.9);*/
+    background: rgba(46, 49, 146, 0.9);
     height: 100%;
     width: 100%;
     color: #FFF;
@@ -1301,6 +1322,11 @@ nav .small-menu {
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);;
 }
 
+.slick-dots li.slick-active button:before {
+    color: #2e3192;
+    font-size: 10px;
+}
+
 @media screen and (max-width: 720px) {
     .client-list {
         padding: 20px;
@@ -1310,7 +1336,8 @@ nav .small-menu {
 /* ===================================== Footer Style  ================================== */
 footer {
     padding: 40px;
-    background-color: rgba(34, 53, 121, 0.9);
+    /*background-color: rgba(34, 53, 121, 0.9);*/
+    background-color: rgba(46, 49, 146, 0.9);
     color: #FFF;
 }
 
